@@ -2,7 +2,7 @@
 
 SaverBot is a twitter bot that helps people save tweets that they want to.
 
-## Technologies
+## Technologies used
 - Python-3.5.9
 - Check the requirements.txt file to find all the python libraries involved in this project.
 - This bot is hosted in a cloud platform named Heroku (https://www.heroku.com).
