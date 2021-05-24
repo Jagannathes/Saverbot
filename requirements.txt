@@ -36,7 +36,6 @@ soupsieve==2.2
 sqlparse==0.4.1
 tweepy==3.10.0
 Twisted==21.2.0
-twisted-iocpsupport==1.0.1
 urllib3==1.26.3
 w3lib==1.22.0
 wikipedia==1.4.0
