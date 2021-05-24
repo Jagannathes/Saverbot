@@ -14,4 +14,3 @@ SaverBot is a twitter bot that helps people save tweets that they want to.
 
 ### Note
 Currently, it doesn't matter what is written after @saverbot1, the bot only checks for mentions, however, we encourage you to continue sending the save commmand too as it might be implemented in a future update!
-
