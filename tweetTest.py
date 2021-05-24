@@ -59,7 +59,7 @@ while True:
 
 
         def check_mentions(api, since_id):
-            logger.info("Retrieving mentions")
+            logger.info("Retrieving mention")
             new_since_id = since_id
 
             for tweet in tweepy.Cursor(api.search, q="@saverbot1", since_id = since_id).items():
