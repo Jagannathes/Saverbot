@@ -1,3 +1,4 @@
+pendingTweetsList = list()
 while True:
     try:
 
@@ -77,7 +78,7 @@ while True:
                 self.recieverId = recieverId
                 self.parentTweetId = parentTweetId
 
-        pendingTweetsList = list()
+        
 
 
 
