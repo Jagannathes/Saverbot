@@ -39,4 +39,4 @@ Set up the followinf environment varibles:
 - Setup a suitable repo and file for saving since ID and modify lines 18 and 19 according to your repository
 
 ## How to Run
-After making sure that you have all the required modules, just run the python script, it will automatically send the DMs and updates github repo storing  since ID.
+After making sure that you have all the required modules, just run the python script, it will automatically send the DMs and updates the github repo storing  since ID.
