@@ -116,7 +116,7 @@ while True:
         def check_mentions(api, since_id):
             logger.info("Retrieving mentions")
             new_since_id = since_id
-            for tweet in tweepy.Cursor(api.search, q="@saverbot1", since_id = since_id).items():
+            for tweet in tweepy.Cursor(api.search, q="@saverbot1 save", since_id = since_id).items():
                 try:
                     new_since_id = max(tweet.id_str, new_since_id)
                     
