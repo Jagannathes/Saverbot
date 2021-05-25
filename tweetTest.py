@@ -131,6 +131,7 @@ while True:
                     else:
                         parentTweet = api.get_status(tweet.in_reply_to_status_id_str)
                         dmStatus = sendDm(tweet.user.id, "https://twitter.com/twitter/statuses/"+ parentTweet.id_str)
+                        logger.info("DMSTATUS =" + dmstatus)
 
                         if(dmStatus == "success"):
                             continue
