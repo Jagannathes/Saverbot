@@ -177,7 +177,7 @@ while True:
                 pendingTweetsList = tryPending(pendingTweetsList)
 
             logger.info("Waiting...")
-            time.sleep(5)
+            time.sleep(10)
                 
 
 
@@ -187,5 +187,7 @@ while True:
         logger = logging.getLogger()
         logger.error(e.reason)
         logger.error("Full Refresh")
+        time.sleep(15)
     except:
         logger.error("Full Refresh")
+        time.sleep(15)
