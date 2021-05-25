@@ -36,7 +36,7 @@ Set up the followinf environment varibles:
 - TWITTER_ACCESS_TOKEN
 - TWITTER_ACCESS_TOKEN_SECRET
 - GITHUB_TOKEN
-- Setup suitable repo and file for saving since ID and modify lines 18 and 19 according to your repository
+- Setup a suitable repo and file for saving since ID and modify lines 18 and 19 according to your repository
 
 ## How to Run
-After making sure u have required modules, just run the python script, it will automatically send the dms and update github repo
+After making sure that you have all the required modules, just run the python script, it will automatically send the DMs and updates github repo storing  since ID.
